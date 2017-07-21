@@ -1,10 +1,12 @@
+
+
 <template>
-  <div class="form-inline">
-  <h3>sign in</h3>
+  <div class="form-inline backin">
+  <h2>ورود به سیستم</h2><br><br><br>
   <div class="form-group">
-    <input type="text" placeholder="email" class="form-control" v-model="email">
-    <input type="password" placeholder="passsword" class="form-control" v-model="password">
-    <button class="btn btn-primary" @click="signIn">Sign In</button>
+    <input type="text" placeholder="ایمیل" class="form-control" v-model="email"><br><br>
+    <input type="password" placeholder="رمزعبور" class="form-control" v-model="password"><br><br>
+    <button class="btn btn-primary" @click="signIn">ورود</button>
   </div>
   <br>
   <p>{{error.message}}</p>

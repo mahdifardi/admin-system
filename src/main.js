@@ -3,6 +3,11 @@ import App from './components/App.vue'
 import VueRouter from 'vue-router'
 import {firebaseApp} from './firebaseApp'
 
+import BootstrapVue from 'bootstrap-vue';
+
+Vue.use(BootstrapVue);
+
+
 
 Vue.use(VueRouter)
 import store from './store'

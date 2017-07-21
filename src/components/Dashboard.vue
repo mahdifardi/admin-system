@@ -1,7 +1,7 @@
    <template>
-      <div >
-        <h3>events dashboard</h3>
-        <button class="btn btn-danger btn-sm signout-btn" @click="signOut">Sign Out</button>
+      <div  class="backin">
+        <h3>افزودن موارد</h3>
+        <button class="btn btn-danger btn-sm signout-btn" @click="signOut">خروج</button>
         <hr>
           <AddEvent />
         <hr>

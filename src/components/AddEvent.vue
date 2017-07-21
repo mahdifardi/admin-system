@@ -3,22 +3,22 @@
     <h4>Add an event</h4>
     <div class="form">
         <div class="form-group">
-            <label >Titlel</label>
+            <label >عنوان</label>
             <input type="text" class="form-control" v-model="event.title">
         </div>
         <div class="form-group">
-            <label >description</label>
+            <label >توضیح</label>
             <input type="text" class="form-control" v-model="event.description">
         </div>
         <div class="form-group">
-            <label >Date</label>
+            <label >تاریخ</label>
             <input type="date" class="form-control" v-model="event.date">
         </div>
         <div class="form-group">
-            <label >Locatio</label>
+            <label >موقعیت</label>
             <input type="text" class="form-control" v-model="event.location">
         </div>
-        <button type="button" class="btn-sm btn-primary" @click="addEvent">submit</button>
+        <button type="button" class="btn-sm btn-primary" @click="addEvent">ثبت</button>
     </div>
   </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
   <div class="form-inline">
-  <h3>sign up</h3>
+  <h3>ثبت نام در سیستم</h3>
   <div class="form-group">
-    <input type="text" placeholder="email" class="form-control" v-model="email">
-    <input type="password" placeholder="passsword" class="form-control" v-model="password">
-    <button class="btn btn-primary" @click="signUp">Sign Up</button>
+    <input type="text" placeholder="ایمیل" class="form-control" v-model="email">
+    <input type="password" placeholder="رمزعبور" class="form-control" v-model="password">
+    <button class="btn btn-primary" @click="signUp">ثبت نام</button>
   </div>
   <br>
   <p>{{error.message}}</p>
